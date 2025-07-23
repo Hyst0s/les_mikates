@@ -100,11 +100,13 @@ body {
   width: 100%;
   height: 700px;
   display: flex;
+  flex-direction: column;
   margin-top: 7%;
 }
 
 .section2_div1{
   width: 100%;
+  height: 100px;
   display: flex;
   justify-content: center;
   font-family: 'Poly';
@@ -112,6 +114,88 @@ body {
   color: #953910;
 }
 
+.section2_div2{
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .coordonnées{
+  margin-left: 10%;
+}
+
+#infos{
+width: 100%;
+display: inline-flex;
+color: #953910;
+font-family: 'Passion One';
+gap: 30px;
+}
+
+#infos img{
+  object-fit: contain;
   
+}
+
+.form-container {
+  width: 800px;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 25%;
+}
+
+
+
+.input-row {
+  display: flex;
+  gap: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #d1814b;
+  color: white;
+  font-size: 15px;
+}
+
+input::placeholder, textarea::placeholder{
+  color: white;
+}
+
+.input-row:focus,input, textarea:focus{
+  outline: none;
+}
+
+.input-row input {
+  flex: 1;
+}
+
+textarea {
+  min-height: 100px;
+  resize: none;
+}
+
+button {
+  background-color: #742e0b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 25px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  width: 120px;
+  align-self: flex-start;
 }
