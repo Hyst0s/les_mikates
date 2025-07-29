@@ -206,7 +206,7 @@ button {
   width: 100%;
   height: 1000px;
   margin-top: 5%;
-  background-color: red;
+  
 }
 
 .icon_reseau1{
@@ -222,7 +222,7 @@ button {
 .icon_reseau1 a{
   width: 100px;
   height: 100px;
-  background-color: linear-gradient(black #af4261);
+  background: linear-gradient(rgb(206, 95, 16) ,#e0882bc3);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -233,4 +233,137 @@ button {
   width: 50px;
   height: 50px;
   object-fit: contain;
+}
+
+.section3_div2{
+  
+  margin-top: 5%;
+  gap: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.section3_div2_text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px
+}
+
+.section3_div2_text button{
+  width: 20%;
+  height: 40px;
+}
+
+.text{
+  width: 250px;
+  display: flex;
+  gap: 20px;
+}
+.text p{
+  font-family: 'Passion One', cursive;
+  font-size: 1.5rem;
+  color: #953910;
+  white-space: nowrap;
+  margin: 0;
+  align-content: center;
+}
+
+.bouton_rouge{
+  background-color: #db8177;
+}
+
+.bouton_bleu{
+  background-color: #6c5eb4;
+}
+
+.text1{
+  width: 250px;
+  display: flex;
+  gap: 20px;
+}
+.text1 p{
+  font-family: 'Passion One', cursive;
+  font-size: 1.5rem;
+  color: #953910;
+  white-space: nowrap;
+  margin: 0;
+  align-content: center;
+}
+
+/* ---------section4------------ */
+
+.section4{
+  background-image: url(../images/contact/banniere2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Poly', cursive;
+}
+
+.section4_div1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  gap: 90px;
+}
+
+.section4_div1 input{
+  width: 20%;
+  background-color: white;
+  color: black;
+}
+
+/* ------------footer--------------- */
+
+footer{
+  width: 100%;
+  height: 450px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Passion One';
+  color: #371708;
+}
+
+
+.elements{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5%;
+  gap: 8%;
+}
+
+.logo img{
+  margin-top: 5%;
+  width: 150%;
+}
+
+.icon_reseau{
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+}
+
+.liens_reseaux ul li {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.liens_reseaux ul li a{
+  text-decoration: none;
+  font-size: 25px;
+  color: #371708;
+}
+
+.div_footer3 h4{
+  font-size: 20px;
 }
