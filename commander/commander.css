@@ -1,0 +1,244 @@
+*{
+  margin: 0;
+}
+
+.section1{
+  width: 100%;
+  height: 1220px;
+  background-image: url(../images/commander/background.png);
+  background-size: cover;
+}
+
+.section1_div1{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  gap: 40px;
+}
+
+.retour{
+  
+  display: flex;
+  gap: 30px;
+  margin-top: 3%;
+}
+
+.retour button{
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.retour h1{
+  font-size: 40px;
+  font-family: 'Poly', sans-serif;
+}
+
+.titre{
+  font-size: 40px;
+  font-family: 'Poly', sans-serif;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+.section1_div2{
+  width: 100%;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.panier{
+  width: 70%;
+  height: 650px;
+  justify-content: center;
+}
+
+.panier_1{
+  width: 100%;
+  height: 50%;
+  margin-top: 5%;
+  display: flex;
+  background-image: url(../images/commander/Rectangle.png);
+  background-repeat: no-repeat;
+  background-position: 175px 0px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.panier_1 img{
+  width: 250px;
+  position: relative;
+  bottom: 12.5%;
+  left: 1%;
+}
+
+.line{
+  width: 100%;
+}
+
+.line img{
+  width: 100%;
+  height: 5px;
+  position: relative;
+  bottom: 12.5%;
+}
+
+.panier_1_1{
+  width: 20%;
+  height: 80%;
+  margin-left: 5%;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Poly', sans-serif;
+  font-size: 25px;
+}
+
+.panier_1_2{
+  width: 30%;
+  height: 50%;
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.panier_1_2 button{
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.panier_1_2 button{
+  font-size: 50px;
+}
+
+.quantite{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.poubelle{
+  margin-left: 10%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.poubelle img{
+  width: 50px;
+}
+
+.panier_1_1{
+  width: 20%;
+  height: 80%;
+  margin-left: 5%;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Poly', sans-serif;
+  font-size: 25px;
+}
+
+/* ------------------------ */
+
+.panier{
+  width: 70%;
+  height: 650px;
+  justify-content: center;
+}
+
+.panier_2{
+  width: 100%;
+  height: 50%;
+  margin-top: 5%;
+  display: flex;
+  background-image: url(../images/commander/Rectangle.png);
+  background-repeat: no-repeat;
+  background-position: 175px 0px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.panier_2 img{
+  width: 330px;
+  height: 450px;
+  position: relative;
+  bottom: 28%;
+  left: 1%;
+}
+
+.line{
+  width: 100%;
+}
+
+.line img{
+  width: 100%;
+  height: 5px;
+  position: relative;
+  bottom: 12.5%;
+}
+
+.panier_2_1{
+  width: 20%;
+  height: 80%;
+  margin-left: 5%;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Poly', sans-serif;
+  font-size: 25px;
+}
+
+.panier_2_2{
+  width: 30%;
+  height: 50%;
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.panier_2_2 button{
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.panier_2_2 button{
+  font-size: 50px;
+}
+
+.quantite{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.poubelle2{
+  margin-left: 10%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.poubelle2 img{
+  width: 50px;
+  max-height: 50px;
+}
+
+
+
+
