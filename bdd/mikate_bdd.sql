@@ -1,5 +1,5 @@
-CREATE DATABASE bdd;
-USE bdd;
+CREATE DATABASE mikate_bdd;
+USE mikate_bdd;
 
 -- Table utilisateurs
 CREATE TABLE utilisateur 
