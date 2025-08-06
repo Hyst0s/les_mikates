@@ -9,9 +9,9 @@ CREATE TABLE utilisateur
     prenom VARCHAR (25) NOT NULL,
     pseudo VARCHAR(25) NOT NULL UNIQUE,
     mot_de_passe VARCHAR(25) NOT NULL,
-    email VARCHAR(50) NOT NULL UNIQUE,
+    email VARCHAR(100) NOT NULL UNIQUE,
     avatar VARCHAR NOT NULL,
-    roles VARCHAR(25) NOT NULL,
+    role ENUM ('utilisateur', 'admin') DEFAULT 'utilisateur',
 );
 
 -- Table Produit
