@@ -10,7 +10,7 @@ CREATE TABLE utilisateur
     pseudo VARCHAR(25) NOT NULL UNIQUE,
     mot_de_passe VARCHAR(25) NOT NULL,
     email VARCHAR(100) NOT NULL UNIQUE,
-    avatar VARCHAR NOT NULL,
+    avatar VARCHAR(255) NOT NULL,
     role ENUM ('utilisateur', 'admin') DEFAULT 'utilisateur'
 );
 
@@ -22,7 +22,7 @@ id_produit INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 nom VARCHAR(50) NOT NULL,
 description VARCHAR(255) NOT NULL,
 prix DECIMAL NOT NULL,
-image VARCHAR NOT NULL,
+image VARCHAR(255) NOT NULL,
 allergene VARCHAR(255) NOT NULL,
 ingredients VARCHAR(255) NOT NULL
 );
@@ -54,7 +54,7 @@ CREATE TABLE commande
 CREATE TABLE paiement
 (
     id_paiement  INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    statut VARCHAR() NOT NULL,
+    statut VARCHAR(255) NOT NULL,
     montant DECIMAL NOT NULL,
     id_transaction INT NOT NULL,
     date_paiement TIMESTAMP DEFAULT CURRENT_TIMESTAMP
